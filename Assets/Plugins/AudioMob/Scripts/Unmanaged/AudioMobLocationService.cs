@@ -1,13 +1,13 @@
-﻿using AudioMob.Internal;
+﻿using Audiomob.Internal;
 using UnityEngine;
 
-namespace AudioMob.Unmanaged
+namespace Audiomob.Unmanaged
 {
 	/// <summary>
-	/// Location services for AudioMob.
+	/// Location services for Audiomob.
 	/// If location services are disabled, the location code won't be compiled to device.
 	/// </summary>
-	public class AudioMobLocationService : ILocationService
+	public class AudiomobLocationService : ILocationService
 	{
 		/// <summary>
 		/// Specifies whether location service is enabled.
@@ -54,10 +54,10 @@ namespace AudioMob.Unmanaged
 		/// <summary>
 		/// Starts location service updates.
 		/// </summary>
-		public void Start(float desiredAccuracyInMeters)
+		public void Start()
 		{
 #if AUDIOMOB_USE_LOCATION_SERVICES
-            Input.location.Start(desiredAccuracyInMeters);
+            Input.location.Start();
 #endif
 		}
 

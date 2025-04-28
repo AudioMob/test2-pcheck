@@ -1,0 +1,4 @@
+framework module Audiomob_OpenMeasurement {
+  header "Audiomob_OpenMeasurement-Swift.h"
+  requires objc
+}

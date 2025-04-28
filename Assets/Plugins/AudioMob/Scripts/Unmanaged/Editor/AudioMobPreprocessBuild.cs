@@ -1,23 +1,23 @@
 ﻿using System;
-using AudioMob.Internal;
-using AudioMob.Internal.Editor;
-using AudioMob.Internal.Utility;
+using Audiomob.Internal;
+using Audiomob.Internal.Editor;
+using Audiomob.Internal.Utility;
 using UnityEditor;
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
 
-namespace AudioMob.Unmanaged.Editor
+namespace Audiomob.Unmanaged.Editor
 {
 	/// <summary>
-	/// AudioMob Preprocess scripts for builds. Called before every build.
+	/// Audiomob Preprocess scripts for builds. Called before every build.
 	/// </summary>
-	public class AudioMobPreprocessBuild : IPreprocessBuildWithReport
+	public class AudiomobPreprocessBuild : IPreprocessBuildWithReport
 	{
 		// Required for IPreprocessBuildWithReport interface implementation, left as default.
 		public int callbackOrder => 0;
 
 		// We need to get PlayerSettings.muteOtherAudioSources at runtime, however there is no way to do so unless we save the value ourselves.
-		// Before every build, ensure that the AudioMob settings stores the PlayerSetting's value for this field.
+		// Before every build, ensure that the Audiomob settings stores the PlayerSetting's value for this field.
 		public void OnPreprocessBuild(BuildReport report)
 		{
 			SavePlayerSettings();
@@ -26,6 +26,7 @@ namespace AudioMob.Unmanaged.Editor
 			
 #if UNITY_ANDROID
 			compileTimeChecks.CheckIfMuteOtherAudioSourcesIsEnabled();
+			compileTimeChecks.CheckIfNativeLibrariesArePresentAndProperlyConfigured();
 #endif
 			
 			compileTimeChecks.CheckIfTestServerIsSelectedForProductionBuild();
@@ -35,20 +36,18 @@ namespace AudioMob.Unmanaged.Editor
 		{
 			try
 			{
-				IAudioMobSettings settings = AudioMobSettings.Instance;
-
-				AudioMobDeveloperSnapshot.CreateDevelopmentSnapshotForBuild(settings);
-
+				IAudiomobSettings settings = AudiomobSettings.Instance;
+				
 				bool muteOtherAudioSources = PlayerSettings.muteOtherAudioSources;
 				if (settings.MuteOtherAudioSources != muteOtherAudioSources)
 				{
 					try
 					{
-						EditorUtility.SetDirty(settings as AudioMobSettings);
+						EditorUtility.SetDirty(settings as AudiomobSettings);
 					}
 					catch (Exception)
 					{
-						AMDebug.LogError($"{AMDebug.Prefix} Failed to set AudioMob Settings asset as dirty, type is not AudioMobSettings");
+						AMDebug.Log($"{AMDebug.Prefix} Failed to set Audiomob Settings asset as dirty, type is not AudiomobSettings");
 					}
 					
 					settings.MuteOtherAudioSources = PlayerSettings.muteOtherAudioSources;
@@ -58,7 +57,7 @@ namespace AudioMob.Unmanaged.Editor
 			}
 			catch (Exception e)
 			{
-				AMDebug.LogError($"Unable to update muteOtherAudioSources AudioMob Settings: {e.Message}");
+				AMDebug.Log($"Unable to update muteOtherAudioSources Audiomob Settings: {e.Message}");
 			}
 		}
 	}

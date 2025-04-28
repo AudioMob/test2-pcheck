@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 999031254, guid: 228598c950c4d4a6db99674c82bd90e5, type: 3}
+  m_Script: {fileID: -1018894079, guid: 228598c950c4d4a6db99674c82bd90e5, type: 3}
   m_Name: audiomob-settings
   m_EditorClassIdentifier: 
   forceTestAds: 1
@@ -26,22 +26,3 @@ MonoBehaviour:
   productionBuildCheck: 1
   loggingMode: 0
   fileLoggingMode: 0
-  developmentSnapshot:
-    allowUnsafeCode: 0
-    scriptingRuntimeVersion: 
-    androidScriptingBackend: 
-    iosScriptingBackend: 
-    androidApiCompatibilityLevel: 
-    iosApiCompatibilityLevel: 
-    minSdkVersion: 
-    targetOSVersionString: 
-    targetArchitectures: 
-    androidScriptingDefineSymbols: 
-    iosScriptingDefineSymbols: 
-    stripEngineCode: 0
-    androidManagedStrippingLevel: 
-    iosManagedStrippingLevel: 
-    androidTVCompatibility: 0
-    useOnDemandResources: 0
-    locationUsageDescription: 
-    requiresPersistentWiFi: 0

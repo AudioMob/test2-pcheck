@@ -1,0 +1,2353 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AudiomobOpenMeasurement",
+        "printedName": "AudiomobOpenMeasurement",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AudiomobOpenMeasurement",
+                "printedName": "Audiomob_OpenMeasurement.AudiomobOpenMeasurement",
+                "usr": "s:24Audiomob_OpenMeasurement0abC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24Audiomob_OpenMeasurement0abC0CACycfc",
+            "mangledName": "$s24Audiomob_OpenMeasurement0abC0CACycfc",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24Audiomob_OpenMeasurement0abC0C5startySbSSKF",
+            "mangledName": "$s24Audiomob_OpenMeasurement0abC0C5startySbSSKF",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startMeasurement",
+            "printedName": "startMeasurement(_:_:_:_:_:_:_:_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24Audiomob_OpenMeasurement0abC0C05startC0________10completionSbSSSg_SSAFSfSiS2fSo6UIViewCSgyyctKF",
+            "mangledName": "$s24Audiomob_OpenMeasurement0abC0C05startC0________10completionSbSSSg_SSAFSfSiS2fSo6UIViewCSgyyctKF",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordEvent",
+            "printedName": "recordEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24Audiomob_OpenMeasurement0abC0C11recordEventySbSiKF",
+            "mangledName": "$s24Audiomob_OpenMeasurement0abC0C11recordEventySbSiKF",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopMeasurement",
+            "printedName": "stopMeasurement()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24Audiomob_OpenMeasurement0abC0C04stopC0SbyKF",
+            "mangledName": "$s24Audiomob_OpenMeasurement0abC0C04stopC0SbyKF",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createWebView",
+            "printedName": "createWebView(resource:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<WebKit.WKWebView, Audiomob_OpenMeasurement.OpenMeasurementError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<WebKit.WKWebView, Audiomob_OpenMeasurement.OpenMeasurementError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OpenMeasurementError",
+                        "printedName": "Audiomob_OpenMeasurement.OpenMeasurementError",
+                        "usr": "s:24Audiomob_OpenMeasurement0bC5ErrorV"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:24Audiomob_OpenMeasurement0abC0C13createWebView8resource10completionySS_ys6ResultOySo05WKWebF0CAA0bC5ErrorVGctF",
+            "mangledName": "$s24Audiomob_OpenMeasurement0abC0C13createWebView8resource10completionySS_ys6ResultOySo05WKWebF0CAA0bC5ErrorVGctF",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:24Audiomob_OpenMeasurement0abC0C",
+        "mangledName": "$s24Audiomob_OpenMeasurement0abC0C",
+        "moduleName": "Audiomob_OpenMeasurement",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrackingEvent",
+        "printedName": "TrackingEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "impression",
+            "printedName": "impression",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO10impressionyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO10impressionyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO5startyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO5startyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "firstQuartile",
+            "printedName": "firstQuartile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO13firstQuartileyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO13firstQuartileyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "midpoint",
+            "printedName": "midpoint",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO8midpointyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO8midpointyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "thirdQuartile",
+            "printedName": "thirdQuartile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO13thirdQuartileyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO13thirdQuartileyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "finished",
+            "printedName": "finished",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO8finishedyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO8finishedyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "paused",
+            "printedName": "paused",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO6pausedyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO6pausedyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "resumed",
+            "printedName": "resumed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO7resumedyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO7resumedyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "skipped",
+            "printedName": "skipped",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO7skippedyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO7skippedyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "clicked",
+            "printedName": "clicked",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.TrackingEvent.Type) -> Audiomob_OpenMeasurement.TrackingEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackingEvent",
+                        "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO7clickedyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO7clickedyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Audiomob_OpenMeasurement.TrackingEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackingEvent",
+                    "printedName": "Audiomob_OpenMeasurement.TrackingEvent",
+                    "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO8rawValueACSgSi_tcfc",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO8rawValueACSgSi_tcfc",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO8rawValueSivp",
+            "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO8rawValueSivp",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO8rawValueSivg",
+                "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO8rawValueSivg",
+                "moduleName": "Audiomob_OpenMeasurement",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24Audiomob_OpenMeasurement13TrackingEventO",
+        "mangledName": "$s24Audiomob_OpenMeasurement13TrackingEventO",
+        "moduleName": "Audiomob_OpenMeasurement",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdFormat",
+        "printedName": "AdFormat",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rewarded",
+            "printedName": "rewarded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.AdFormat.Type) -> Audiomob_OpenMeasurement.AdFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFormat",
+                    "printedName": "Audiomob_OpenMeasurement.AdFormat",
+                    "usr": "s:24Audiomob_OpenMeasurement8AdFormatO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.AdFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdFormat",
+                        "printedName": "Audiomob_OpenMeasurement.AdFormat",
+                        "usr": "s:24Audiomob_OpenMeasurement8AdFormatO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement8AdFormatO8rewardedyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement8AdFormatO8rewardedyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Var",
+            "name": "skippable",
+            "printedName": "skippable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Audiomob_OpenMeasurement.AdFormat.Type) -> Audiomob_OpenMeasurement.AdFormat",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFormat",
+                    "printedName": "Audiomob_OpenMeasurement.AdFormat",
+                    "usr": "s:24Audiomob_OpenMeasurement8AdFormatO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Audiomob_OpenMeasurement.AdFormat.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdFormat",
+                        "printedName": "Audiomob_OpenMeasurement.AdFormat",
+                        "usr": "s:24Audiomob_OpenMeasurement8AdFormatO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:24Audiomob_OpenMeasurement8AdFormatO9skippableyA2CmF",
+            "mangledName": "$s24Audiomob_OpenMeasurement8AdFormatO9skippableyA2CmF",
+            "moduleName": "Audiomob_OpenMeasurement"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Audiomob_OpenMeasurement.AdFormat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdFormat",
+                    "printedName": "Audiomob_OpenMeasurement.AdFormat",
+                    "usr": "s:24Audiomob_OpenMeasurement8AdFormatO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24Audiomob_OpenMeasurement8AdFormatO8rawValueACSgSi_tcfc",
+            "mangledName": "$s24Audiomob_OpenMeasurement8AdFormatO8rawValueACSgSi_tcfc",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24Audiomob_OpenMeasurement8AdFormatO8rawValueSivp",
+            "mangledName": "$s24Audiomob_OpenMeasurement8AdFormatO8rawValueSivp",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24Audiomob_OpenMeasurement8AdFormatO8rawValueSivg",
+                "mangledName": "$s24Audiomob_OpenMeasurement8AdFormatO8rawValueSivg",
+                "moduleName": "Audiomob_OpenMeasurement",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:24Audiomob_OpenMeasurement8AdFormatO",
+        "mangledName": "$s24Audiomob_OpenMeasurement8AdFormatO",
+        "moduleName": "Audiomob_OpenMeasurement",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "Function",
+        "name": "audiomobOmsdk_start",
+        "printedName": "audiomobOmsdk_start(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)audiomobOmsdk_start:",
+        "mangledName": "$s24Audiomob_OpenMeasurement19audiomobOmsdk_startySbSPys4Int8VGSgF",
+        "moduleName": "Audiomob_OpenMeasurement",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "audiomobOmsdk_startMeasurement",
+        "printedName": "audiomobOmsdk_startMeasurement(_:_:_:_:_:_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnsafePointer",
+                "printedName": "Swift.UnsafePointer<Swift.Int8>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int8",
+                    "printedName": "Swift.Int8",
+                    "usr": "s:s4Int8V"
+                  }
+                ],
+                "usr": "s:SP"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)audiomobOmsdk_startMeasurement:::::::",
+        "mangledName": "$s24Audiomob_OpenMeasurement019audiomobOmsdk_startC0ySbSPys4Int8VGSg_A2FSfSiS2ftF",
+        "moduleName": "Audiomob_OpenMeasurement",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "audiomobOmsdk_recordEvent",
+        "printedName": "audiomobOmsdk_recordEvent(trackingEventInt:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)audiomobOmsdk_recordEventWithTrackingEventInt:",
+        "mangledName": "$s24Audiomob_OpenMeasurement25audiomobOmsdk_recordEvent08trackingG3IntSbSi_tF",
+        "moduleName": "Audiomob_OpenMeasurement",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "audiomobOmsdk_stopMeasurement",
+        "printedName": "audiomobOmsdk_stopMeasurement()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)audiomobOmsdk_stopMeasurement",
+        "mangledName": "$s24Audiomob_OpenMeasurement018audiomobOmsdk_stopC0SbyF",
+        "moduleName": "Audiomob_OpenMeasurement",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Audiomob_OpenMeasurement"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OpenMeasurementError",
+        "printedName": "OpenMeasurementError",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpenMeasurementError",
+                "printedName": "Audiomob_OpenMeasurement.OpenMeasurementError",
+                "usr": "s:24Audiomob_OpenMeasurement0bC5ErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:24Audiomob_OpenMeasurement0bC5ErrorVyACSScfc",
+            "mangledName": "$s24Audiomob_OpenMeasurement0bC5ErrorVyACSScfc",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:24Audiomob_OpenMeasurement0bC5ErrorV16errorDescriptionSSSgvp",
+            "mangledName": "$s24Audiomob_OpenMeasurement0bC5ErrorV16errorDescriptionSSSgvp",
+            "moduleName": "Audiomob_OpenMeasurement",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24Audiomob_OpenMeasurement0bC5ErrorV16errorDescriptionSSSgvg",
+                "mangledName": "$s24Audiomob_OpenMeasurement0bC5ErrorV16errorDescriptionSSSgvg",
+                "moduleName": "Audiomob_OpenMeasurement",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:24Audiomob_OpenMeasurement0bC5ErrorV",
+        "mangledName": "$s24Audiomob_OpenMeasurement0bC5ErrorV",
+        "moduleName": "Audiomob_OpenMeasurement",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "IntegerLiteral",
+      "offset": 802,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 836,
+      "length": 25,
+      "value": "\"human.audiomob.com-omid\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "Array",
+      "offset": 995,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1343,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1533,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 1584,
+      "length": 23,
+      "value": "\"Omid didn't activate.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 1743,
+      "length": 70,
+      "value": "\"[Audiomob] Open Measurement started (SDK: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 1810,
+      "length": 1,
+      "value": "\").\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 2301,
+      "length": 35,
+      "value": "\"OMIDAudiomobSDK is not activated.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 2468,
+      "length": 35,
+      "value": "\"Invalid adFormat: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 2501,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 3024,
+      "length": 39,
+      "value": "\"Failed to start measurement: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 3062,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 3090,
+      "length": 49,
+      "value": "\"[Audiomob] Open Measurement ad session started.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3156,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 3739,
+      "length": 34,
+      "value": "\"Ad Session failed to be created.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 5052,
+      "length": 97,
+      "value": "\"[Audiomob] Open Measurement failed to start measuring ad session: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 5148,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 5262,
+      "length": 97,
+      "value": "\"[Audiomob] Open Measurement failed to start measuring ad session: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 5358,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 5635,
+      "length": 28,
+      "value": "\"OMID SDK is not activated.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 5797,
+      "length": 51,
+      "value": "\"Invalid tracking event value: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 5847,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 6013,
+      "length": 82,
+      "value": "\"[Audiomob] Open Measurement \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 6078,
+      "length": 5,
+      "value": "\" event recorded.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6112,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 6386,
+      "length": 50,
+      "value": "\"[Audiomob] Open Measurement ad session finished.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6453,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 6706,
+      "length": 35,
+      "value": "\"Invalid resource URL: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 6740,
+      "length": 4,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 6867,
+      "length": 17,
+      "value": "\"Missing JS SDK.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "StringLiteral",
+      "offset": 7717,
+      "length": 29,
+      "value": "\"Invalid data from resource.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7922,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8030,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/AudiomobOpenMeasurement.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8087,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/MeasurementSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1124,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/MeasurementSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1777,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/MeasurementSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1923,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/MeasurementSession.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 54,
+      "value": "\"OMID impression error: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/MeasurementSession.swift",
+      "kind": "StringLiteral",
+      "offset": 2356,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/MeasurementSession.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2488,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 268,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 295,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 317,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 358,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/TrackingEvent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 10,
+      "value": "\"Audiomob\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 40,
+      "value": "\"audiomobVersion can't be nil or empty.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 819,
+      "length": 36,
+      "value": "\"Unable to initialize OMID partner.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 982,
+      "length": 32,
+      "value": "\"JS SDK string is nil or empty.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1252,
+      "length": 38,
+      "value": "\"Unable to create ad session context.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1426,
+      "length": 44,
+      "value": "\"Unable to create ad session configuration.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1693,
+      "length": 44,
+      "value": "\"Unable to instantiate ad session: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 1736,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 2887,
+      "length": 70,
+      "value": "\"Unable to instantiate session context: verification resource is nil.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 3445,
+      "length": 49,
+      "value": "\"Unable to instantiate session context: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 3493,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 3796,
+      "length": 42,
+      "value": "\"Unable to parse Verification Script URL.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3968,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3992,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4852,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 4916,
+      "length": 53,
+      "value": "\"Unable to create ad session configuration: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdSessionFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 4968,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/OpenMeasurementSerialQueue.swift",
+      "kind": "Array",
+      "offset": 116,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/OpenMeasurementSerialQueue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 150,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/OpenMeasurementSerialQueue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 795,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/OpenMeasurementSerialQueue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 942,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/StringUtil.swift",
+      "kind": "IntegerLiteral",
+      "offset": 342,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 174,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/AdFormat.swift",
+      "kind": "IntegerLiteral",
+      "offset": 197,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/JsSdkFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 145,
+      "length": 7,
+      "value": "\"omsdk\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/JsSdkFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 4,
+      "value": "\"js\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/JsSdkFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 11,
+      "value": "\"Resources\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/JsSdkFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 509,
+      "length": 33,
+      "value": "\"Unable to find JS SDK resource.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/JsSdkFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 63,
+      "value": "\"Unable to read JS SDK contents: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/Utility\/JsSdkFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 450,
+      "length": 46,
+      "value": "\"[Audiomob] Open Measurement already started.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 517,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 40,
+      "value": "\"audiomobVersionString is nil or empty.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 47,
+      "value": "\"Failed to create instance of OpenMeasurement.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1144,
+      "length": 76,
+      "value": "\"[Audiomob] Open Measurement failed to start: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1219,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1295,
+      "length": 76,
+      "value": "\"[Audiomob] Open Measurement failed to start: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1370,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1388,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1411,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 1809,
+      "length": 34,
+      "value": "\"openMeasurement is nil or empty.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 2026,
+      "length": 33,
+      "value": "\"resourceString is nil or empty.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 2184,
+      "length": 52,
+      "value": "\"[Audiomob] Open Measurement can't find unity view.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 2944,
+      "length": 97,
+      "value": "\"[Audiomob] Open Measurement failed to start measuring ad session: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3040,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3120,
+      "length": 97,
+      "value": "\"[Audiomob] Open Measurement failed to start measuring ad session: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3216,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3234,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3257,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3427,
+      "length": 58,
+      "value": "\"[Audiomob] Open Measurement is nil, cannot record event.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3502,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3720,
+      "length": 110,
+      "value": "\"[Audiomob] Open Measurement failed to record event (\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3797,
+      "length": 1,
+      "value": "\"): \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 3829,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3876,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 4033,
+      "length": 62,
+      "value": "\"[Audiomob] Open Measurement is nil, cannot stop measurement.\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4112,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 4263,
+      "length": 87,
+      "value": "\"[Audiomob] Open Measurement failed to stop measurement: \""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "StringLiteral",
+      "offset": 4349,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/radostinstoychev\/Documents\/Unity Projects\/Projects\/unity-plugin\/NativeCodePlugin\/OpenMeasurement\/iOS\/AudiomobOpenMeasurement\/UnityInterface.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4396,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

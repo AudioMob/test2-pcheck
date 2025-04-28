@@ -1,0 +1,4 @@
+framework module Audiomob {
+  header "Audiomob-Swift.h"
+  requires objc
+}
